@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.app-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-with-cont {
+  background-color: #150b3e;
+  width: 80%;
+  max-width: 350px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cash-with-cont {
+    width: 50%;
+    max-width: 422px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .initial-cont {
+    height: 64px;
+    width: 64px;
+    border-radius: 24px;
+  }
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+  .your-balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .balance {
+    font-size: 32px;
+  }
+  .withdraw {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .choose-sum {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+}
+.user-details-cont {
+  display: flex;
+}
+.initial-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+.inital {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7c3aed;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #d4d2db;
+  margin-left: 8px;
+}
+.balance-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.your-balance {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+  color: #585076;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+.currency {
+  font-size: 12px;
+  font-weight: 500;
+  color: #585076;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
